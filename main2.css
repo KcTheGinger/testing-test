@@ -1,0 +1,10 @@
+header {
+    background-color: darkgreen;
+    }
+
+h1 {
+    border: solid orangered 1.5px;
+    text-align: left;
+    font-style:italic;
+    padding: 1px;
+    }
