@@ -1,9 +1,15 @@
-image {
-    width:"20px";
-    height: "40px";
+body, h1, header {
+    color: whitesmoke;
+    font-family: serif;
+    width: 550px;
+    align-content: center;
+}
+footer {
+    font-size: 17px;
 }
 header:first-child {
-    background-color:rgb(255, 140, 0);
+    font-size: 17px;
+    background-color:rgb(231, 127, 0);
 }
 h1 {
     border: solid orangered 1.5px;
@@ -16,7 +22,7 @@ header ul {
     text-align: center;
 }
 a:link {
-    color: black;
+    color: rgb(99, 22, 48);
 }
 a:hover {
     color:whitesmoke;

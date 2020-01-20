@@ -1,10 +1,40 @@
-header {
+body, h1, header {
+    color: white;
+    font-family: monospace;
+    width: 75%;
+    align-content: center;
+}
+footer {
+    font-size: 17px;
+}
+header:first-child {
+    font-size: 17px;
     background-color: darkgreen;
-    }
-
+}
 h1 {
-    border: solid orangered 1.5px;
-    text-align: left;
+    border: solid green 1.5px;
+    text-align: center;
     font-style:italic;
     padding: 1px;
-    }
+}
+header ul {
+        text-align: center;
+}
+a:link {
+    color: white;
+}
+a:hover {
+    color: black;
+}
+body {
+    background-color: rgb(92, 0, 92);
+    text-align: center;
+}
+button {
+    height: 30px;
+    transition: height ease-in .20s;
+}
+button:hover {
+    height: 40px;
+    transition: height ease-out .20s;
+}
